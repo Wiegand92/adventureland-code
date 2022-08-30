@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "lib": ["esnext", "dom"],
+    "allowSyntheticDefaultImports": true,
+    "noEmit": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictPropertyInitialization": true,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+    "esModuleInterop": true,
+    "downlevelIteration": true,
+    "baseUrl": "./src"
+  },
+  "include": ["src/**/*", "rollup.config.ts", "watcher.ts"]
+}
